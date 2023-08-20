@@ -1,4 +1,4 @@
-# My To Do - web App
+# My To Do List - web App
 This is for webify challenge #2 : to do list
 # Website:
 My website URL is https://souvik-bhattacharya.github.io/ToDoList/
