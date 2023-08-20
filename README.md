@@ -1,9 +1,11 @@
-# to_do_list_webify_c2.github.io
-This is for webify challenge #2 to do list
+# My To Do - web App
+This is for webify challenge #2 : to do list
+# Website:
+My website URL is https://souvik-bhattacharya.github.io/ToDoList/
 # How to Use it:
 Here is a screenshot of my web app:
 
-![Screenshot (35)](https://github.com/Souvik-Bhattacharya/to_do_list_webify_c2.github.io/assets/106822950/68294d5e-7c2d-420d-bd4d-a41fec1e0356)
+![Screenshot (37)](https://github.com/Souvik-Bhattacharya/ToDoList/assets/106822950/f6061526-064b-440f-a57d-693538dc22a4)
 
 1. Here you can add your tasks in the entry box under the **"Schedule Your Tasks Here"** section and after typing click the **"Add"** button.
 2. After adding the task it will appear under the **"Your Tasks"** and the total number tasks will be shown below.

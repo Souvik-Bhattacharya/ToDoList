@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+    color: darkorange;
 }
 
 body {
@@ -28,8 +30,7 @@ body {
 
 #logo span {
     padding: 3px;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
+
 }
 
 #search {
@@ -67,14 +68,10 @@ section {
 
 h1 {
     padding: 20px;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
 }
 
 #time {
     margin-bottom: 10px;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
 }
 
 #container {
@@ -94,13 +91,6 @@ h1 {
 
 h2 {
     padding: 7px;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
-}
-
-#num {
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
 }
 
 #inputBox {
@@ -140,8 +130,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
 }
 
 .taskBox {
@@ -276,8 +264,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Lobster', cursive, Arial;
-    color: darkorange;
     margin: 40px;
 }
 
