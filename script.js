@@ -45,9 +45,9 @@ function show() {
         imply += `<div class="taskBox">
                     <h4>Task${index + 1}:</h4>
                     <p id="${index}" contenteditable = "false">${ele}</p>
-                    <button id="star${index}" onclick = "star(${index})">${element.includes("*") ? "Unstar" : "Star"}</button>
-                    <button id="edit${index}" onclick = "edit(${index})">Edit</button>
-                    <button onclick = "del(${index})">Delete</button>
+                    <button class = "star" id="star${index}" onclick = "star(${index})">${element.includes("*") ? "Unstar" : "Star"}</button>
+                    <button class = "edit" id="edit${index}" onclick = "edit(${index})">Edit</button>
+                    <button class = "delete" onclick = "del(${index})">Delete</button>
                 </div>`;
     });
     let space = document.getElementById("myTasks");
@@ -114,7 +114,7 @@ function edit(index) {
     if (document.getElementById(`${index}`).getAttribute("contenteditable") === "true") {
         document.getElementById(`${index}`).setAttribute("contenteditable", "false");
         document.getElementById(`edit${index}`).innerHTML = "Edit";
-        arr[index].includes("*") ? arr[index] = document.getElementById(`${index}`).innerHTML + " *" : document.getElementById(`${index}`).innerHTML;
+        arr[index] = arr[index].includes("*") ? document.getElementById(`${index}`).innerHTML + " *" : document.getElementById(`${index}`).innerHTML;
         localStorage.setItem("Tasks", JSON.stringify(arr));
     }
     else {

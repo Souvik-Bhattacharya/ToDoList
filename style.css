@@ -168,27 +168,7 @@ h2 {
     color: black;
 }
 
-.taskBox button {
-    padding: 10px;
-    border-radius: 12px;
-    background-color: darkorange;
-    border: darkorange;
-    box-shadow: 2px 2px 2px 1px black;
-    color: black;
-    font-weight: bold;
-    margin: 4px;
-    cursor: pointer;
-}
-
-.taskBox button:hover {
-    background-color: rgb(255, 206, 116);
-}
-
-.taskBox button:active {
-    background-color: orange;
-}
-
-#bookmarkBtn {
+.star {
     padding: 10px;
     border-radius: 12px;
     background-color: darkblue;
@@ -200,12 +180,52 @@ h2 {
     cursor: pointer;
 }
 
-#bookmarkBtn:hover {
+.star:hover {
     background-color: rgb(32, 86, 201);
 }
 
-#bookmarkBtn:active {
+.star:active {
     background-color: rgb(1, 74, 163);
+}
+
+.edit{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: greenyellow;
+    border: lightseagreen;
+    box-shadow: 2px 2px 2px 1px black;
+    color: black;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.edit:hover{
+    background-color: rgb(184, 251, 151);
+}
+
+.edit:active{
+    background-color: darkgreen;
+}
+
+.delete{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: darkorange;
+    border: darkorange;
+    box-shadow: 2px 2px 2px 1px black;
+    color: black;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: rgb(255, 206, 116);
+}
+
+.delete:active{
+    background-color: orange;
 }
 
 #lastEle {
@@ -235,21 +255,21 @@ h2 {
 #delAll {
     padding: 10px;
     border-radius: 12px;
-    background-color: darkorange;
-    border: darkorange;
+    background-color: darkblue;
+    border: navy;
     box-shadow: 2px 2px 2px 1px black;
-    color: black;
+    color: white;
     font-weight: bold;
     margin: 4px;
     cursor: pointer;
 }
 
 #delAll:hover {
-    background-color: rgb(255, 206, 116);
+    background-color: rgb(32, 86, 201);
 }
 
 #delAll:active {
-    background-color: orange;
+    background-color: rgb(1, 74, 163);
 }
 
 footer {
